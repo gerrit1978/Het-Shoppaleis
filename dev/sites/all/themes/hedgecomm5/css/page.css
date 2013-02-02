@@ -1,0 +1,171 @@
+/* Page */
+* { outline: none; }
+body { margin: 0; padding: 0;}
+html { background: #222 url(../img/bg-page.jpg) center top; }
+#push { height: 70px; background: url(../img/strepen-footer.jpg) repeat-y 70px top; width: 1040px; margin: 0 auto; text-align: left; margin-top: -14px; }
+
+/* Header */
+#header-wrapper {  height: 250px; overflow: hidden;}
+#logo {
+  margin: 0 10px;
+}
+
+/* Content */
+
+#page > header > hgroup {
+  margin: 0 10px;
+}
+#site-name { width: 417px; height: 252px; background:url(../img/logo.png) no-repeat center top; float: left; margin-right: 250px;}
+#site-name a    { display: block; height: 341px; text-indent: -999em;}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+#site-slogan {}
+
+/* Page title */
+h1#page-title {}
+
+/* Regions */
+.region-leaderboard {}
+.region-header {}
+.region-secondary-content {}
+.region-highlighted {}
+.region-content-aside {}
+.region-tertiary-content {}
+.region-footer {}
+
+/* Sidebars */
+.sidebar {}
+.region-sidebar-first {}
+.region-sidebar-second {}
+
+/* Footer - the main page footer only */
+#page > footer {}
+
+/* Feed icons */
+#feed-icons {}
+#feed-icons .feed-icon {}
+#feed-icons .feed-icon img {}
+#feed-icons a.feed-icon {}
+
+/* Search results list. */
+.search-results {}
+.search-results .search-result {}
+.search-results .title {}
+.search-results .search-snippet-info {}
+.search-results p {}
+.search-results .search-snippet {}
+.search-results .search-info {}
+
+span.search-info-type {}
+span.search-info-user {}
+span.search-info-date {}
+span.search-info-comment {}
+span.search-info-upload  {}
+
+/* Aggregator */
+.feed-item {}
+.feed-item header {}
+.feed-item-title {}
+.feed-item-meta {}
+.feed-item .content {}
+.feed-item footer {}
+.feed-source {}
+.feed-description {}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Prevent overflowing content */
+header[role=banner],
+.content-inner,
+.nav,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+#columns { background: url(../img/bg-container-bottom.png) no-repeat center bottom; padding-bottom: 15px; }
+#columns h1 { margin-bottom: 10px;}
+.columns-inner { background: url(../img/bg-container.jpg) center top; padding: 20px 30px; height: 480px; }
+.columns-inner #content-column { height: 440px; overflow-y: scroll; overflow-x: visible; outline: none;}
+
+nav#block-system-main-menu { margin: 0; padding: 0; }
+#block-system-main-menu ul { margin: 0; padding: 0;}
+#block-system-main-menu ul li { list-style: none; margin: 0; padding: 0; float: left;}
+#block-system-main-menu ul li a { display: block; width: 60px; height: 251px; text-indent: -999em; background: url(../img/sprite-menu.jpg) no-repeat 0 0; padding: 0; }
+#block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active { background-position: 0 -296px;}
+#block-system-main-menu ul li a#standhouders { background-position: -60px 0; }
+#block-system-main-menu ul li a:hover#standhouders, #block-system-main-menu ul li a#standhouders.active { background-position: -60px -296px;}
+#block-system-main-menu ul li a#bezoekers { background-position: -120px 0; }
+#block-system-main-menu ul li a:hover#bezoekers, #block-system-main-menu ul li a.active#bezoekers { background-position: -120px -296px;}
+#block-system-main-menu ul li a#over-ons { background-position: -180px 0; }
+#block-system-main-menu ul li a:hover#over-ons, #block-system-main-menu ul li a.active#over-ons { background-position: -180px -296px;}
+#block-system-main-menu ul li a#nieuws { background-position: -240px 0; }
+#block-system-main-menu ul li a:hover#nieuws, #block-system-main-menu ul li a.active#nieuws { background-position: -240px -296px;}
+
+/* Scroll homepage */
+body.front #content #block-system-main { display: none; }
+
+/* Kolommen homepage */
+.region-content-left, .region-content-middle, .region-content-right { width: 300px; float: left; margin-right: 20px;}
+.region-content-right { margin-right: 0; }
+.region-content-left .block-inner, .region-content-middle .block-inner, .region-content-right .block-inner { margin: 0;}
+
+/* News homepage */
+.region-content-right .view-nieuws ul { margin: 0; padding: 0;}
+.region-content-right .view-nieuws ul li { list-style: none; margin-bottom: 30px; border-bottom: 1px dotted #5a5958; padding-bottom: 10px;}
+.region-content-right .view-nieuws ul li.last { border-bottom: none; margin-bottom: 0;}
+.region-content-right .view-nieuws ul li .date {color: #25a110; text-shadow: 0 1px 1px white; margin-bottom: 7px; font-weight: 800; }
+
+/* News page */
+.page-nieuws .view-nieuws ul { margin: 0; }
+.page-nieuws .view-nieuws ul li { list-style: none; margin-bottom: 20px; }
+
+/* Prefooter */
+.region-content-bottom { padding-top: 10px; border-top: 1px dotted #595957; padding-bottom: 10px; margin-top: 20px;}
+.region-content-bottom p { text-align: center; font-size: 0.769em; margin-bottom: 0;}
+
+/* Contact Ribbon */
+#content-wrapper .container { position: relative;}
+#ribbon { width: 80px; height: 220px;  position: absolute; top: 40px; left: -80px;}
+#block-block-4 { width: 80px; height: 220px; text-indent: -999em;}
+#block-block-4 .block-inner { margin: 0;}
+#block-block-4 .block-inner p a { display: block; height: 220px; border: none; background: url(../img/contact.png) no-repeat left top;}
+#block-block-4 .block-inner p a:hover { background-position: 0 -220px;}
+
+/* jScrollPane */
+.jScrollPaneDrag { background: url(../img/schuifbalk.png) no-repeat center center;}
+.jScrollPaneTrack { background: url(../img/track.png) no-repeat center center;}
+
+a.message-close { border: none; }
+
+
+/** Facebook linkje homepage **/
+#block-block-1 a.fb { display: block; height: 30px; line-height: 30px; padding-left: 35px; background: url(../img/fb.png) no-repeat left center; border: none; font-weight: 700; }
+
+/** Inschrijvingsformulier **/
+#edit-submitted-deel-2-aantal-tafels { width: 70px;}
+#node-10 .field-name-body p { margin-bottom: 0;}
+#node-10 #edit-actions { margin: 0;}
+#node-10 form { margin: 0; padding-left: 80px;}
+
+/** Deelnemers **/
+.view-deelnemers ul { list-style: none; margin: 0; padding: 0; }
+.view-deelnemers ul li { margin: 0; margin-bottom: 35px; clear: left;}
+.view-deelnemers .views-field-field-afbeelding { width: 150px; float: left; }
