@@ -23,6 +23,7 @@
   stylesheets[all][] = css/articles.css
   stylesheets[all][] = css/comments.css
   stylesheets[all][] = css/blocks.css
+  stylesheets[all][] = css/font-awesome.min.css
   stylesheets[print][] = css/print.css
 
   ; Disabled styles - un-comment if you need these.

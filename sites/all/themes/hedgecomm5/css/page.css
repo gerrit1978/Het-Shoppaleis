@@ -167,8 +167,14 @@ a.message-close { border: none; }
 
 /** Deelnemers **/
 .view-deelnemers ul { list-style: none; margin: 0; padding: 0; }
-.view-deelnemers ul li { margin: 0; margin-bottom: 35px; clear: left;}
-.view-deelnemers .views-field-field-afbeelding { width: 150px; float: left; margin-right: 20px; }
+.view-deelnemers ul li { margin: 0; margin-bottom: 35px; float: left; margin-right: 19px; width: 260px; background: white; border: 1px solid #ededed; height: 180px; text-align: center; padding: 20px; position: relative; }
+.view-deelnemers ul li.last { margin-right: 0;}
+.view-deelnemers ul li .bedrijfsnaam { position: absolute; bottom: 15px; left: 15px;}
+.view-deelnemers ul li .field-naam-persoon { position: absolute; bottom: 35px; left: 15px;}
+.view-deelnemers ul li .views-field-field-link { margin-bottom: 10px; font-size: 14px; font-weight: 700;}
+.view-deelnemers ul li .external-link { position: absolute; bottom: 10px; right: 10px; }
+.view-deelnemers ul li .external-link a { border-bottom: none; color: 360808;}
+.view-deelnemers ul li .external-link a:hover { color: #25a110;}
 
 .page-node-4 h2.block-title { font-size: 24px;}
 .page-node-4 .block-views { clear: both; margin-bottom: 30px;}
